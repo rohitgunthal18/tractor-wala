@@ -794,8 +794,10 @@ $("lnYt").href = LINKS.ytmusic;
 /* -------------------------------------------------------------- background */
 (function background(){
   const BASE = "assets/base.jpg";
-  const NAT = { w: 1672, h: 941 };
-  const bg = $("bg"), canvas = $("gl");
+const M1 = "assets/mask1.png";
+const M2 = "assets/mask2.png";
+const NAT = { w: 1672, h: 941 };
+const bg = $("bg"), canvas = $("gl");
 
   // Static fallback the moment anything below is unavailable or fails.
   const fallback = () => {
